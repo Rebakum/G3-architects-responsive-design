@@ -21,6 +21,9 @@
     padding: 20px 25px;
     margin: 50px 0px;
 }
+.text-light-gray{
+
+}
 
 
 *{
@@ -118,7 +121,7 @@ main{
 }
 .teams-content{
     width: 48%;
-    padding-left: 70px;
+    
     
 }
 .teams-content .teams-title{
@@ -196,4 +199,18 @@ main{
  width: 100%;
  padding: 40px;
 }}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .teams-container {
+        flex-direction: column;
+       }
+       .teams-img-container{
+        width: 100%;
+        padding: 40px;
+       }
+       .teams-content{
+        width: 100%;
+        padding: 40px;
+       }}
+
 
