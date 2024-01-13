@@ -171,27 +171,29 @@ main{
    
 }
 /***tablet or media device***/
-@media screen and(min-width:576px) and (max-width:992px) {
-   header{
-    padding: 50px;
-   }
-    nav{
-        flex-direction: column;
-    }
-    main{
-        margin: 20px;
-    }
-    
-   
-    .teams-img-container{
-        width: 100%;
-        grid-template-columns: 1fr;
-        padding: 40px;
-    }
-    .teams-content{
-        width: 100%;
-        padding: 40px;
-    }
-    
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header {
+        padding: 20px;
 }
+
+nav,
+.teams-container {
+ flex-direction: column;
+}
+
+    
+main{
+ margin: 20px;
+}
+
+
+.teams-img-container{
+ width: 100%;
+ grid-template-columns: 1fr;
+ padding: 40px;
+}
+.teams-content{
+ width: 100%;
+ padding: 40px;
+}}
 
