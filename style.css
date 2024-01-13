@@ -146,20 +146,27 @@ main{
     .header {
                padding: 20px;
     }
+
     nav,
     nav > ul,
     .teams-container {
         flex-direction: column;
     }
+   
+           
     main{
-        padding: 20px;
+        margin: 20px;
     }
+    
+   
     .teams-img-container{
         width: 100%;
         grid-template-columns: 1fr;
+        padding: 40px;
     }
     .teams-content{
         width: 100%;
+        padding: 40px;
     }
    
 }
@@ -170,6 +177,20 @@ main{
    }
     nav{
         flex-direction: column;
+    }
+    main{
+        margin: 20px;
+    }
+    
+   
+    .teams-img-container{
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 40px;
+    }
+    .teams-content{
+        width: 100%;
+        padding: 40px;
     }
     
 }
